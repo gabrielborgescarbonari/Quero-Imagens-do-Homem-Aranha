@@ -1,6 +1,6 @@
 from turtle import *
 
-speed(7)
+speed(13)
 bgcolor("#990000")  # Velocidade da caneta
 pensize(10)
 penup()
@@ -226,33 +226,22 @@ def oo(li, jing):
     pendown()
 
 
-# Olho esquerdo
 penup()
-pensize(7)
-goto(-15, -110)
-seth(0)
+goto(0, -200)
+right(70)
 pendown()
-pensize(10)
-begin_fill()
-left(130)
-fd(110)
-right(250)
-circle(90, 60)
-circle(40, 120)
-fillcolor("#F5FFFA")
-end_fill()
-
-# Olho direito
-penup()
-goto(5, -110)
-pendown()
-begin_fill()
-right(30)
-fd(110)
-right(-250)
-circle(-90, 60)
-circle(-40, 120)
-end_fill()
+fd(90)
+right(50)
+circle(70, -45)
+right(100)
+circle(-70, 45)
+# right(50)
+# circle(70,36)
+# penup()
+# goto(-40,-182)
+# right(38)
+# pendown()
+# fd(70)
 
 
 done()
