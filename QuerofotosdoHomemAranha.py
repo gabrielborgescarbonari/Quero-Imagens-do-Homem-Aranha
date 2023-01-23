@@ -225,7 +225,7 @@ def oo(li, jing):
     circle(90, 13)
     pendown()
 
-
+# Teia
 penup()
 goto(0, -220)
 right(70)
